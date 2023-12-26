@@ -50,8 +50,8 @@ const AchievementsSection = () => {
                   configs={(_, index) => {
                     return {
                       mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
+                      friction: 200,
+                      tensions: 340 * (index + 1),
                     };
                   }}
                 />
