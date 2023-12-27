@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar";
 import MenuOverlay from "./component/MenuOverlay";
 import AboutSection from "./component/AboutSection";
 import AchievementsSection from "./component/AchievementsSection";
+import ProjectsSection from "./component/ProjectsSection";
 import Footer from "./component/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
         <AboutSection />
+        <ProjectsSection />
         <AchievementsSection />
         <Footer />
       </div>
